@@ -1,0 +1,194 @@
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px; /* Tamaño de letra más pequeño para dispositivos móviles */
+        padding: 0%;
+        margin: 0%;
+        background-image: url('../img/FondoGeneral.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    /* cabecera de la pagian*/
+    header{
+        color: aliceblue;
+        background-image: url('../img/CieloHeader.jpg'); /* Ruta de tu imagen de fondo */
+        background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+        background-position: center; /* Centra la imagen */
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav{
+        padding: 3px;
+        margin:-10px;
+    }
+    .nav a{
+        font-weight: bold; /* Poner el texto en negrita */
+        display: inline;
+        margin-right: 12px;
+        color: aliceblue;
+    }
+    /* hasta aqui cabecera*/
+
+    h2{
+        text-align: center;
+        text-decoration: underline; /* Aplica subrayado */
+    }
+    section{
+        padding: 2px;
+    }
+
+
+    /* footer*/
+    footer{
+        padding: 5px;
+        background-color: red;
+        text-align: center;
+    }
+    /* footer*/
+    #contenedorimagenes{
+        text-align: center;
+        margin: 0 auto; /* Center the div horizontally */
+    }
+    img{
+        width: 30%;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        font-size: 18px;
+        padding: 0%;
+        margin: 0%;
+        background-image: url('../img/FondoGeneral.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    /* cabecera de la pagian*/
+    header{
+        color: aliceblue;
+        background-image: url('../img/CieloHeader.jpg'); /* Ruta de tu imagen de fondo */
+        background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+        background-position: center; /* Centra la imagen */
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav{
+        padding: 3px;
+        margin:-10px;
+    }
+    .nav a{
+        font-weight: bold; /* Poner el texto en negrita */
+        display: inline;
+        margin-right: 12px;
+        color: aliceblue;
+    }
+    /* hasta aqui cabecera*/
+
+    h2{
+        text-align: center;
+        text-decoration: underline; /* Aplica subrayado */
+    }
+    section{
+        padding: 2px;
+    }
+
+
+    /* footer*/
+    footer{
+        padding: 5px;
+        background-color: red;
+        text-align: center;
+    }
+    /* footer*/
+    #contenedorimagenes{
+        text-align: center;
+        margin: 0 auto; /* Center the div horizontally */
+    }
+    img{
+        width: 30%;
+    }
+}
+
+
+/*Ordenador*/
+@media (min-width: 1025px) {
+
+    body {
+        font-size: 18px; 
+        padding: 0%;
+        margin: 0%;
+        background-image: url('../img/FondoGeneral.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    /* cabecera de la pagian*/
+    header{
+        color: aliceblue;
+        background-image: url('../img/CieloHeader.jpg'); /* Ruta de tu imagen de fondo */
+        background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+        background-position: center; /* Centra la imagen */
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav{
+        padding: 3px;
+        margin:-10px;
+    }
+    .nav a{
+        font-weight: bold; /* Poner el texto en negrita */
+        display: inline;
+        margin-right: 12px;
+        color: aliceblue;
+    }
+    /* hasta aqui cabecera*/
+
+    .indice{
+        text-align: center;
+    }
+
+    .indice a{
+        padding: 10px;
+    }
+
+    h2{
+        text-align: center;
+        text-decoration: underline; /* Aplica subrayado */
+    }
+    section{
+        padding: 2px;
+    }
+    section p {
+        text-align: center;
+    }
+    /* footer*/
+    footer{
+        padding: 5px;
+        background-color: red;
+        text-align: center;
+    }
+    /* footer*/
+    #requisitos{
+        text-align: center;
+        margin: 0 auto; /* Center the div horizontally */
+    }
+    #descarga{
+        text-align: center;
+        margin: 0 auto; /* Center the div horizontally */
+    }
+    #jugar{
+        text-align: center;
+        margin: 0 auto; /* Center the div horizontally */
+    }
+    ol {
+        list-style: none;
+    }
+    img{
+        width: 30%;
+    }
+}
+
